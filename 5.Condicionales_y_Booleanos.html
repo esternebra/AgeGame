@@ -1,0 +1,36 @@
+<!-- Para completar nuestros scripts necesitaremos estudiar en un momento concreto el tipo de datos que recibimos y devolver una respuesta u otra en base a ello. Este es el rol de los condicionales y también de los valores booleanos. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Datos numerales = cifras -->
+    <!-- Datos literales = texto -->
+    <title>Condicionales_y_Booleanos</title>
+    <!-- Añadimos el archivo css -->
+    <link rel="stylesheet" href="5.Condicionales_y_Booleanos.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+
+    <!-- Creamos un espacio para el mensaje de bienvenida-->
+    <div id="bienvenida" class="mensaje"></div>
+    <!-- Creamos un formulario-->
+    <form action="" id="formulario">
+        <!-- Añadimos la etiqueta para el nombre donde se puede añadir datos de tipo texto-->
+        <label for="">Tu nombre: <input type="text"  id="nombre" required></label>
+        <!-- Añadimos la etiqueta para el año donde se puede añadir datos de tipo texto y le obligamos a que tenga un máximo de 4 cifras-->
+        <label for="">Tu año de nacimiento: <input type="text"  id="fecha" maxlength="4"  required></label>
+        <!-- Añadimos un botón para enviar la información de tipo submit (buton:submit)-->
+        <button type="submit">Enviar</button>
+    </form>
+
+
+    <!-- Vinculamos el archivo js -->
+    <script src="5.Condicionales_y_Booleanos.js"></script>
+</body>
+</html>
